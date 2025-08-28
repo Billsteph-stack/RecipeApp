@@ -1,6 +1,6 @@
-##Recipe Application
+#Recipe Application
 This document entails basic coding and design patterns to be followed in contribution to ensure maintainability and consistency through the code and the overall react community
-##Variable and constants naming:
+#Variable and constants naming:
 Camel case will be used. Examples:
 export const primaryColor
 export const secondaryColor
@@ -12,23 +12,23 @@ export const SECONDARY_COLOR
 All other constants will only have the first character in caps. examples:
 const MouseStartPosition
 
-##Naming convections:
+#Naming convections:
 The first letter of each word shall be in caps: Colors LandingScreen
 
-##Booleans:
+#Booleans:
 Booleans should have prefixes indicating they are booleans. Examples:
 Prefixes:
 is has can
 Examples:
 isLoggedIn hasError canSubmit
 
-##Actionable verbs should be used for functions.
+#Actionable verbs should be used for functions.
 examples: function fetchApi
 function handleSubmit
 function formatDate
 
 avoid: function submitButton
 
-##Constants and variables:
+#Constants and variables:
 Use descriptive nouns. examples: const MaxLangth
 var apiUrl
